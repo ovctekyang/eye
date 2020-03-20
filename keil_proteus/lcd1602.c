@@ -59,7 +59,7 @@ void print_string(char* str) {
 	for (i = 0; str[i] != 0; i++)
 	{
 		write_data(str[i]);
-		delay_ms(200);	//—” ±
+		delay_ms(100);	//—” ±
 	}
 }
 //--------------------------------------------
@@ -69,7 +69,6 @@ void delay_ms(uchar t) {
 	int j;
 	for (; t != 0; t--)
 		for (j = 0; j < 255; j++);
-
 }
 main() {
 	lcd_init();
