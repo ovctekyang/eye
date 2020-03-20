@@ -19,5 +19,5 @@ void main()
 void delay(int ms)
 {
 	unsigned int i=ms*91;
-	for(;i>0;i--){;}
+	for (; i > 0; i--);
 }
