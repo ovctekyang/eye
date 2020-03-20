@@ -1,0 +1,79 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        10/24/2019  22:49:43  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE inter_1.obj TO keil1
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  inter_1.obj (INTER_1)
+  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?SLCMP)
+
+
+LINK MAP OF MODULE:  keil1 (INTER_1)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0006H     UNIT         ?DT?INTER_1
+            IDATA   000EH     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     0046H     UNIT         ?PR?MAIN?INTER_1
+            CODE    0049H     0016H     UNIT         ?C?LIB_CODE
+            CODE    005FH     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   keil1 (INTER_1)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?INTER_1
+
+
+
+SYMBOL TABLE OF MODULE:  keil1 (INTER_1)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        INTER_1
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  C:0003H         PUBLIC        main
+  D:0008H         PUBLIC        num
+  D:0009H         PUBLIC        a
+  D:000AH         PUBLIC        i
+  D:000CH         PUBLIC        j
+  -------         PROC          MAIN
+  C:0003H         LINE#         6
+BL51 BANKED LINKER/LOCATER V6.22                                                      10/24/2019  22:49:43  PAGE 2
+
+
+  C:0003H         LINE#         7
+  C:0003H         LINE#         8
+  C:0003H         LINE#         9
+  C:0003H         LINE#         10
+  C:001BH         LINE#         11
+  C:0027H         LINE#         12
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        INTER_1
+
+  -------         MODULE        ?C?SLCMP
+  C:0049H         PUBLIC        ?C?SLCMP
+  -------         ENDMOD        ?C?SLCMP
+
+Program Size: data=15.0 xdata=0 code=107
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

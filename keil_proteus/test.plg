@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\KeilProteus\test.uvproj
+Project File Date:  03/19/2020
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling RingSocket.c...
+RingSocket.c(1): warning C318: can't open file 'reg51,h'
+RingSocket.c(3): warning C317: attempt to redefine macro 'unsigned'
+RINGSOCKET.C(4): error C129: missing ';' before 'shi'
+Target not created
+Build target 'Target 1'
+compiling RingSocket.c...
+RingSocket.c(3): warning C317: attempt to redefine macro 'unsigned'
+RINGSOCKET.C(4): error C129: missing ';' before 'shi'
+Target not created
+Build target 'Target 1'
+compiling RingSocket.c...
+RINGSOCKET.C(8): error C141: syntax error near ')'
+RINGSOCKET.C(15): error C141: syntax error near 'miao'
+Target not created
+Build target 'Target 1'
+compiling RingSocket.c...
+RINGSOCKET.C(8): error C141: syntax error near ')'
+Target not created
+Build target 'Target 1'
+compiling led1602.c...
+LED1602.C(86): warning C206: 'write_com': missing function-prototype
+LED1602.C(86): error C267: 'write_com': requires ANSI-style prototype
+Target not created

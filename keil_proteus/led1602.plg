@@ -1,0 +1,117 @@
+Build target 'Target 1'
+compiling lcd1602.c...
+LCD1602.C(11): error C202: 'P2': undefined identifier
+LCD1602.C(12): error C202: 'P2': undefined identifier
+LCD1602.C(13): error C202: 'P2': undefined identifier
+LCD1602.C(27): error C202: 'RS': undefined identifier
+LCD1602.C(28): error C202: 'LCDRW': undefined identifier
+LCD1602.C(29): error C202: 'P1': undefined identifier
+LCD1602.C(31): error C202: 'EN': undefined identifier
+LCD1602.C(33): error C202: 'EN': undefined identifier
+LCD1602.C(39): error C202: 'RS': undefined identifier
+LCD1602.C(40): error C202: 'LCDRW': undefined identifier
+LCD1602.C(41): error C202: 'P1': undefined identifier
+LCD1602.C(43): error C202: 'EN': undefined identifier
+LCD1602.C(45): error C202: 'EN': undefined identifier
+LCD1602.C(51): error C202: 'LCDRW': undefined identifier
+LCD1602.C(52): error C202: 'RS': undefined identifier
+lcd1602.c(81): warning C318: can't open file 'global.h'
+lcd1602.c(82): warning C318: can't open file 'ks0066.h'
+Target not created
+Build target 'Target 1'
+compiling lcd1602.c...
+C:\KEIL\C51\INC\ATMEL\REG51.H(13): error C231: 'P0': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(14): error C231: 'P1': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(15): error C231: 'P2': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(16): error C231: 'P3': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(17): error C231: 'PSW': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(18): error C231: 'ACC': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(19): error C231: 'B': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(20): error C231: 'SP': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(21): error C231: 'DPL': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(22): error C231: 'DPH': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(23): error C231: 'PCON': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(24): error C231: 'TCON': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(25): error C231: 'TMOD': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(26): error C231: 'TL0': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(27): error C231: 'TL1': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(28): error C231: 'TH0': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(29): error C231: 'TH1': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(30): error C231: 'IE': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(31): error C231: 'IP': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(32): error C231: 'SCON': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(33): error C231: 'SBUF': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(38): error C231: 'CY': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(39): error C231: 'AC': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(40): error C231: 'F0': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(41): error C231: 'RS1': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(42): error C231: 'RS0': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(43): error C231: 'OV': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(44): error C231: 'P': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(47): error C231: 'TF1': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(48): error C231: 'TR1': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(49): error C231: 'TF0': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(50): error C231: 'TR0': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(51): error C231: 'IE1': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(52): error C231: 'IT1': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(53): error C231: 'IE0': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(54): error C231: 'IT0': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(57): error C231: 'EA': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(58): error C231: 'ES': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(59): error C231: 'ET1': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(60): error C231: 'EX1': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(61): error C231: 'ET0': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(62): error C231: 'EX0': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(65): error C231: 'PS': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(66): error C231: 'PT1': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(67): error C231: 'PX1': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(68): error C231: 'PT0': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(69): error C231: 'PX0': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(72): error C231: 'RD': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(73): error C231: 'WR': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(74): error C231: 'T1': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(75): error C231: 'T0': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(76): error C231: 'INT1': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(77): error C231: 'INT0': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(78): error C231: 'TXD': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(79): error C231: 'RXD': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(82): error C231: 'SM0': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(83): error C231: 'SM1': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(84): error C231: 'SM2': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(85): error C231: 'REN': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(86): error C231: 'TB8': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(87): error C231: 'RB8': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(88): error C231: 'TI': redefinition
+C:\KEIL\C51\INC\ATMEL\REG51.H(89): error C231: 'RI': redefinition
+lcd1602.c(82): warning C318: can't open file 'global.h'
+lcd1602.c(83): warning C318: can't open file 'ks0066.h'
+Target not created
+Build target 'Target 1'
+compiling lcd1602.c...
+linking...
+Program Size: data=14.0 xdata=0 code=248
+creating hex file from "lcd1602"...
+"lcd1602" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling lcd1602.c...
+linking...
+Program Size: data=14.0 xdata=0 code=248
+creating hex file from "lcd1602"...
+"lcd1602" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=14.0 xdata=0 code=248
+creating hex file from "lcd1602"...
+"lcd1602" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling lcd1602.c...
+linking...
+Program Size: data=14.0 xdata=0 code=248
+creating hex file from "lcd1602"...
+"lcd1602" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling lcd1602.c...
+linking...
+Program Size: data=14.0 xdata=0 code=253
+creating hex file from "lcd1602"...
+"lcd1602" - 0 Error(s), 0 Warning(s).

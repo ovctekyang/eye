@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Keil\keil1.uvproj
+Project File Date:  12/22/2019
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling adc0804_1.c...
+D:\PROTEUSKEILFILE\ADC0804_1.C(44): warning C290: missing return value
+D:\PROTEUSKEILFILE\ADC0804_1.C(74): warning C290: missing return value
+linking...
+Program Size: data=13.0 xdata=0 code=342
+creating hex file from "led1222"...
+"led1222" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling adc0804_1.c...
+D:\PROTEUSKEILFILE\ADC0804_1.C(44): warning C290: missing return value
+D:\PROTEUSKEILFILE\ADC0804_1.C(74): warning C290: missing return value
+linking...
+Program Size: data=13.0 xdata=0 code=342
+creating hex file from "ADC0804"...
+"ADC0804" - 0 Error(s), 2 Warning(s).
