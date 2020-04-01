@@ -10,9 +10,24 @@ void delay(uint);
 
 void main()
 {
-	while (1)
+	//while (1)
+	//{
+	//	P0 = 0xea;
+	//	wela = 1;
+	//	wela = 0;
+	//	P0 = table[2];
+	//	dula = 1;
+	//	dula = 0;
+	//	delay(1000);
+	//	P0 = table[3];
+	//	dula = 1;
+	//	dula = 0;
+	//	delay(1000);
+	//}
+	uint i;
+	for(i=0;i<16;i++)
 	{
-		P0 = 0xea;
+		P0 = ~(1<<i);
 		wela = 1;
 		wela = 0;
 		P0 = table[2];
