@@ -44,15 +44,15 @@ void main()
 	while (1)
 	{
 		GetTime();
-		Format_DateTime(DateTime[6], LCD_DSY_BUFFER1 + 5);
-		Format_DateTime(DateTime[4], LCD_DSY_BUFFER1 + 8);
-		Format_DateTime(DateTime[3], LCD_DSY_BUFFER1 + 1);
+		Format_DateTime(DateTime[3], LCD_DSY_BUFFER2 + 5);
+		Format_DateTime(DateTime[4], LCD_DSY_BUFFER2 + 8);
+		Format_DateTime(DateTime[6], LCD_DSY_BUFFER2 + 11);
 
 		strcpy(LCD_DSY_BUFFER1 + 13, WEEK[DateTime[5]]);
 
-		Format_DateTime(DateTime[2], LCD_DSY_BUFFER1 + 5);
+		Format_DateTime(DateTime[0], LCD_DSY_BUFFER1 + 5);
 		Format_DateTime(DateTime[1], LCD_DSY_BUFFER1 + 8);
-		Format_DateTime(DateTime[0], LCD_DSY_BUFFER1 + 1);
+		Format_DateTime(DateTime[2], LCD_DSY_BUFFER1 + 11);
 
 		Display_LCD_String(0x00, LCD_DSY_BUFFER1);
 		Display_LCD_String(0x40, LCD_DSY_BUFFER2);
